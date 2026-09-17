@@ -1,8 +1,31 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Commit Hours</title>
+        <item>
+            <title>0.6.0</title>
+            <pubDate>Thu, 17 Sep 2026 16:42:28 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Более простой интерфейс и автоматические категории пользы.
+
+- «Фокус» заменён на «Потолки»: заполнение лимитов, оставшийся запас и прибавка за следующий коммит. Выбирать фокус больше не нужно.
+- Убран раздел «Разобрать» и ручное назначение категорий. Старые ручные назначения больше не влияют на оценку.
+- Классификатор понимает вложенные маркеры вида `модуль: задача: (fix/test/implement)`, наблюдаемый формат клиентских тикетов и описания работы без префикса.
+- Коммиты с недостаточными признаками учитываются с базовым весом 2 вместо нуля. В интерфейсе видно, когда использована такая оценка.
+- Сохранены раздельные оценки доставленного и всех локальных веток, история и настройки проектов.
+
+Это локальное приближение к t39: серверные сведения о MR, доставке и старых копиях после rebase могут менять категории и баллы. Приложение не отправляет данные Git на сервер.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.6.0/Commit-Hours-0.6.0-arm64.zip" length="2703977" type="application/octet-stream" sparkle:edSignature="stho36+4ikOAl6GBPFbLsHZkiBr8FzdjfoWZ2omusO8J4ZYMapowMPjq6bfLIRqBbaVOPZnUry2gW9ix2wT2AA=="/>
+        </item>
         <item>
             <title>0.5.0</title>
             <pubDate>Thu, 17 Sep 2026 10:38:55 +0200</pubDate>
@@ -26,10 +49,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Сборка пока не заверена Apple. Инструкция первого запуска: https://mezhnin.github.io/commit-hours-releases/
 ]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.5.0/Commit-Hours-0.5.0-arm64.zip" length="2733222" type="application/octet-stream" sparkle:edSignature="A2jqdUCAINROnBPjkl+S9Ou95zzr8mMAct5NiDcviIASU4EFic1iaF1h/mpKf6Jl1Y4csKjiEVmxoSIIEp6rCA=="></enclosure>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.5.0/Commit-Hours-0.5.0-arm64.zip" length="2733222" type="application/octet-stream" sparkle:edSignature="A2jqdUCAINROnBPjkl+S9Ou95zzr8mMAct5NiDcviIASU4EFic1iaF1h/mpKf6Jl1Y4csKjiEVmxoSIIEp6rCA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: cxj5rt+mRqziN8vj7UqiVE2HAL4AjlWWCjzWq0OwWmFEmEzdiG+yINNpYnBjG3Oo2jVZro4q4w9KeEr2Z4u4DA==
-length: 2742
+</rss>
+<!-- sparkle-signatures:
+edSignature: 4dyLf/5tsBtFBGz9paBJnFQL7LTKx42fp9cAnurAIUWXSb7qeejWzoildfiLA6mgLNJz9C+lUEMIyVIRh1QiAA==
+length: 5276
 -->
