@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Commit Hours — скачать и установить</title>
+<style>
+body{font:17px/1.6 system-ui,sans-serif;max-width:720px;margin:60px auto;padding:0 24px;color:#243333;background:#f7faf9}h1{font-size:42px;line-height:1.1}h2{margin-top:36px;font-size:24px}a{color:#007c78}.download{display:inline-block;background:#007c78;color:white;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600}pre{padding:16px;background:#e9efed;border-radius:8px;overflow:auto;font-size:13px}.meta{color:#526565}footer{margin:40px 0;font-size:14px}
+@media(prefers-color-scheme:dark){body{background:#162221;color:#e1eeea}.meta{color:#aebeb9}a{color:#75d5c9}pre{background:#253531}}
+</style>
+<h1>Commit Hours</h1>
+<p>Ваши Git-коммиты по часам: интервалы, плотность работы и предварительная оценка пользы. Приложение живёт в строке меню macOS.</p>
+<p><a class="download" href="https://github.com/mezhnin/commit-hours-releases/releases/latest">Скачать последнюю версию</a></p>
+<p class="meta">Apple Silicon · macOS 14 и новее · для чтения репозиториев нужен Git</p>
+<h2>Первая установка</h2>
+<ol><li>Скачайте ZIP из релиза и распакуйте.</li><li>Перенесите Commit Hours.app в «Программы». Перед ручной заменой завершите старую копию.</li><li>Запустите приложение. Откройте «Git: —» в строке меню, нажмите шестерёнку и добавьте свои репозитории.</li></ol>
+<p>Сборка пока не заверена Apple. Если macOS блокирует первый запуск, разрешите открытие в «Системные настройки → Конфиденциальность и безопасность». <a href="https://support.apple.com/ru-ru/102445">Инструкция Apple</a>.</p>
+<p>Если кнопка разрешения не появляется, после переноса скачанного здесь приложения в «Программы» выполните в Терминале:</p>
+<pre>xattr -dr com.apple.quarantine "/Applications/Commit Hours.app"
+open "/Applications/Commit Hours.app"</pre>
+<h2>Следующие обновления</h2>
+<p>Начиная с версии 0.5.0 приложение проверяет обновления раз в сутки. Установка — по кнопке с перезапуском. Настройки проектов и история сохраняются.</p>
+<p>Ручная проверка: меню «…» → «Проверить обновления…». Автоматическую проверку можно выключить в настройках → «О программе».</p>
+<h2>Ваши данные</h2>
+<p>Пути к проектам, авторы и коммиты остаются на вашем Mac. GitHub используется для загрузки подписанных обновлений. Статистика использования не отправляется.</p>
+<footer><a href="https://github.com/mezhnin/commit-hours-releases/releases">Все версии и изменения</a></footer>
+</html>
