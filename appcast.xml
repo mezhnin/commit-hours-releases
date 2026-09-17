@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Commit Hours</title>
+        <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 17 Sep 2026 10:38:55 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Commit Hours теперь умеет обновляться прямо из приложения.
+
+- Проверка новых версий раз в сутки; её можно выключить в настройках → «О программе».
+- Ручная проверка: меню «…» → «Проверить обновления…».
+- Установка по кнопке с перезапуском приложения. Настройки проектов и история сохраняются.
+- Архивы и список версий подписаны ключом разработчика; приложение проверяет подписи перед установкой.
+- Данные Git остаются на вашем Mac. Соединение с GitHub используется для обновлений.
+
+Требования: Apple Silicon, macOS 14 или новее. Intel не поддерживается.
+
+Версию 0.5.0 нужно установить вручную один раз. Следующие версии будут доступны через встроенное обновление.
+
+Сборка пока не заверена Apple. Инструкция первого запуска: https://mezhnin.github.io/commit-hours-releases/
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.5.0/Commit-Hours-0.5.0-arm64.zip" length="2733222" type="application/octet-stream" sparkle:edSignature="A2jqdUCAINROnBPjkl+S9Ou95zzr8mMAct5NiDcviIASU4EFic1iaF1h/mpKf6Jl1Y4csKjiEVmxoSIIEp6rCA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: cxj5rt+mRqziN8vj7UqiVE2HAL4AjlWWCjzWq0OwWmFEmEzdiG+yINNpYnBjG3Oo2jVZro4q4w9KeEr2Z4u4DA==
+length: 2742
+-->
