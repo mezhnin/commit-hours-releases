@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Fri, 18 Sep 2026 10:30:10 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Больше признаков для автоматической оценки пользы.
+
+- Распознаются русские маркеры тестов и документации, дополнительные описания исправлений и знаний.
+- Неоднозначные коммиты проверяются по изменённым файлам и доступному в Git контексту вливания.
+- Для технического автора возможна оценка принадлежности по конкретному вашему вливанию. Такие коммиты явно помечены как предположение; реальные авторы-коллеги не переатрибутируются.
+- Неопределённая категория в списке коммитов подписана как базовая оценка с весом 2.
+- Дополнительные доказательства кэшируются. Настройки и история сохраняются, расчёт интервалов не изменён.
+
+Оценка остаётся приближением к t39. Расчёт не требует подключения к модели или GitLab, не отправляет рабочие данные. Недоступные сведения о MR, squash и копиях после rebase могут давать расхождения.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.0/Commit-Hours-0.7.0-arm64.zip" length="2733278" type="application/octet-stream" sparkle:edSignature="7jZ83yNzxa2xcZJBMoXKGu1N5/24BYqbZ6f1FanyuA4tLCDVeRYQhhmYtaj3iV+6NFIInMLsTLknOYE1NZTzCw=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Thu, 17 Sep 2026 16:42:28 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -54,6 +75,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 4dyLf/5tsBtFBGz9paBJnFQL7LTKx42fp9cAnurAIUWXSb7qeejWzoildfiLA6mgLNJz9C+lUEMIyVIRh1QiAA==
-length: 5276
+edSignature: ZR4Ocv0498zPpoYH2pHUR0toGUZC8JNDc/lSl0Lqr4udNfkmTYds26wLdzKpUruv1+dQP+gA5qN7FqoxLWQRAw==
+length: 7750
 -->
