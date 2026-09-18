@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.7.1</title>
+            <pubDate>Fri, 18 Sep 2026 16:13:47 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Более простой интерфейс пользы.
+
+- Две вкладки: «Интервалы» и «Польза». Категории и потолки собраны вместе.
+- В категориях показаны набранные баллы. При превышении лимита отдельно видно, сколько баллов не учтено: например, «+10 б.» и «Ещё 20 б. не учтены — сверх потолка».
+- Внизу «Пользы» — два итога за сегодня по выбранному проекту: основная ветка и все локальные ветки. Второй итог — общий прогноз после доставки.
+- Убраны баннер над категориями, список доставленных коммитов и выбор месяца.
+- Шапка и окно сохраняют размер при переключении вкладок.
+
+Настройки и история сохраняются. Поддерживаются Mac с Apple Silicon.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.1/Commit-Hours-0.7.1-arm64.zip" length="2687890" type="application/octet-stream" sparkle:edSignature="XO/dxO2Zz6kem0pEwV4WDqBqTgRxGroaCyPh2nIficKZH2gX8rlC6UGJQ0nwkUSd7Tr6YhGTV793Qk2SKZm3AA=="/>
+        </item>
+        <item>
             <title>0.7.0</title>
             <pubDate>Fri, 18 Sep 2026 10:30:10 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -47,34 +68,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.6.0/Commit-Hours-0.6.0-arm64.zip" length="2703977" type="application/octet-stream" sparkle:edSignature="stho36+4ikOAl6GBPFbLsHZkiBr8FzdjfoWZ2omusO8J4ZYMapowMPjq6bfLIRqBbaVOPZnUry2gW9ix2wT2AA=="/>
         </item>
-        <item>
-            <title>0.5.0</title>
-            <pubDate>Thu, 17 Sep 2026 10:38:55 +0200</pubDate>
-            <link>https://mezhnin.github.io/commit-hours-releases/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Commit Hours теперь умеет обновляться прямо из приложения.
-
-- Проверка новых версий раз в сутки; её можно выключить в настройках → «О программе».
-- Ручная проверка: меню «…» → «Проверить обновления…».
-- Установка по кнопке с перезапуском приложения. Настройки проектов и история сохраняются.
-- Архивы и список версий подписаны ключом разработчика; приложение проверяет подписи перед установкой.
-- Данные Git остаются на вашем Mac. Соединение с GitHub используется для обновлений.
-
-Требования: Apple Silicon, macOS 14 или новее. Intel не поддерживается.
-
-Версию 0.5.0 нужно установить вручную один раз. Следующие версии будут доступны через встроенное обновление.
-
-Сборка пока не заверена Apple. Инструкция первого запуска: https://mezhnin.github.io/commit-hours-releases/
-]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.5.0/Commit-Hours-0.5.0-arm64.zip" length="2733222" type="application/octet-stream" sparkle:edSignature="A2jqdUCAINROnBPjkl+S9Ou95zzr8mMAct5NiDcviIASU4EFic1iaF1h/mpKf6Jl1Y4csKjiEVmxoSIIEp6rCA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ZR4Ocv0498zPpoYH2pHUR0toGUZC8JNDc/lSl0Lqr4udNfkmTYds26wLdzKpUruv1+dQP+gA5qN7FqoxLWQRAw==
-length: 7750
+edSignature: ekJU+895buShaMFqQe/v1O/2hCG+6U+m0FVzONpWWUyZ8kR+T6xm4ZKhCwacDpOqh8PHESmIXUzOkzqHn3eTDg==
+length: 7548
 -->
