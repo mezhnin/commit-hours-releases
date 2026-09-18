@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.7.2</title>
+            <pubDate>Fri, 18 Sep 2026 17:49:56 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Выбор проекта во вкладке «Польза» перенесён в правую часть шапки, на то же место, что и в «Интервалах».
+
+- Убрана отдельная строка выбора проекта внутри карточки пользы.
+- Оба переключателя выровнены по правому краю. Высота шапки и окна остаётся постоянной при переключении вкладок.
+
+Настройки, история и правила расчёта сохраняются.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.2/Commit-Hours-0.7.2-arm64.zip" length="2689368" type="application/octet-stream" sparkle:edSignature="v6OG0xdSGdoTdwoAf0jZfYRQHdAGmYb8A8yPO/um1V2qZ+MpVM2YOLHwpQ+9wNqIPSZ9m3OEOV3JGaZvAT5qCg=="/>
+        </item>
+        <item>
             <title>0.7.1</title>
             <pubDate>Fri, 18 Sep 2026 16:13:47 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -47,30 +65,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.0/Commit-Hours-0.7.0-arm64.zip" length="2733278" type="application/octet-stream" sparkle:edSignature="7jZ83yNzxa2xcZJBMoXKGu1N5/24BYqbZ6f1FanyuA4tLCDVeRYQhhmYtaj3iV+6NFIInMLsTLknOYE1NZTzCw=="/>
         </item>
-        <item>
-            <title>0.6.0</title>
-            <pubDate>Thu, 17 Sep 2026 16:42:28 +0200</pubDate>
-            <link>https://mezhnin.github.io/commit-hours-releases/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Более простой интерфейс и автоматические категории пользы.
-
-- «Фокус» заменён на «Потолки»: заполнение лимитов, оставшийся запас и прибавка за следующий коммит. Выбирать фокус больше не нужно.
-- Убран раздел «Разобрать» и ручное назначение категорий. Старые ручные назначения больше не влияют на оценку.
-- Классификатор понимает вложенные маркеры вида `модуль: задача: (fix/test/implement)`, наблюдаемый формат клиентских тикетов и описания работы без префикса.
-- Коммиты с недостаточными признаками учитываются с базовым весом 2 вместо нуля. В интерфейсе видно, когда использована такая оценка.
-- Сохранены раздельные оценки доставленного и всех локальных веток, история и настройки проектов.
-
-Это локальное приближение к t39: серверные сведения о MR, доставке и старых копиях после rebase могут менять категории и баллы. Приложение не отправляет данные Git на сервер.
-]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.6.0/Commit-Hours-0.6.0-arm64.zip" length="2703977" type="application/octet-stream" sparkle:edSignature="stho36+4ikOAl6GBPFbLsHZkiBr8FzdjfoWZ2omusO8J4ZYMapowMPjq6bfLIRqBbaVOPZnUry2gW9ix2wT2AA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ekJU+895buShaMFqQe/v1O/2hCG+6U+m0FVzONpWWUyZ8kR+T6xm4ZKhCwacDpOqh8PHESmIXUzOkzqHn3eTDg==
-length: 7548
+edSignature: oGYCshbJ6IZ71kptgpo6ufll/JYUPqdCdVz4P7ohp2hwhYDZdTpFLRgkfPR5jmVGdXUqcLau/FYor3E92GgGCg==
+length: 6599
 -->
