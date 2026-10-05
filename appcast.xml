@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.8.0</title>
+            <pubDate>Mon, 05 Oct 2026 22:56:29 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Обновлён расчёт пользы под текущую модель t39.
+
+- Оценка зависит от добавленных и удалённых строк, с ограничением 1000 строк на коммит и постепенно уменьшающейся прибавкой. Старый потолок в шесть коммитов убран.
+- Польза рассчитывается по общей дневной шкале всех включённых репозиториев. Фильтр проекта показывает его вклад в общий результат.
+- В категориях видны учтённые строки, число коммитов и баллы. Внизу — основная ветка и пересчитанный прогноз по всем локальным веткам.
+- Статистика изменений кэшируется по коммитам и дополняется автоматически. Если данных не хватает, приложение показывает причину вместо нулевой оценки.
+- Сохранены две вкладки и постоянная высота шапки. Расчёт часовых интервалов не изменён.
+
+Оценка остаётся предварительной: классификация отдельных коммитов и некоторые серверные исключения могут отличаться от t39.
+
+Настройки сохраняются. При первом запуске история автоматически дополняется статистикой строк. Поддерживаются Mac с Apple Silicon, macOS 14 и новее.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.0/Commit-Hours-0.8.0-arm64.zip" length="2716242" type="application/octet-stream" sparkle:edSignature="60xbgHreOvQ5cFotQE8FZztKmN+7kTu7ZzaE1NAWZRNzSwQi7sdmQ/9j0wsNk3CqikTpP+Prvg2BAQa14C3vDA=="/>
+        </item>
+        <item>
             <title>0.7.3</title>
             <pubDate>Mon, 21 Sep 2026 15:23:27 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -42,30 +65,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.2/Commit-Hours-0.7.2-arm64.zip" length="2689368" type="application/octet-stream" sparkle:edSignature="v6OG0xdSGdoTdwoAf0jZfYRQHdAGmYb8A8yPO/um1V2qZ+MpVM2YOLHwpQ+9wNqIPSZ9m3OEOV3JGaZvAT5qCg=="/>
         </item>
-        <item>
-            <title>0.7.1</title>
-            <pubDate>Fri, 18 Sep 2026 16:13:47 +0200</pubDate>
-            <link>https://mezhnin.github.io/commit-hours-releases/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Более простой интерфейс пользы.
-
-- Две вкладки: «Интервалы» и «Польза». Категории и потолки собраны вместе.
-- В категориях показаны набранные баллы. При превышении лимита отдельно видно, сколько баллов не учтено: например, «+10 б.» и «Ещё 20 б. не учтены — сверх потолка».
-- Внизу «Пользы» — два итога за сегодня по выбранному проекту: основная ветка и все локальные ветки. Второй итог — общий прогноз после доставки.
-- Убраны баннер над категориями, список доставленных коммитов и выбор месяца.
-- Шапка и окно сохраняют размер при переключении вкладок.
-
-Настройки и история сохраняются. Поддерживаются Mac с Apple Silicon.
-]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.1/Commit-Hours-0.7.1-arm64.zip" length="2687890" type="application/octet-stream" sparkle:edSignature="XO/dxO2Zz6kem0pEwV4WDqBqTgRxGroaCyPh2nIficKZH2gX8rlC6UGJQ0nwkUSd7Tr6YhGTV793Qk2SKZm3AA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KN8Que1Sie4WG2OWXqYOplpFw4pwj1oSCrSanMhycUjjVlBsQ6xH3guEF4K1yvsAcARKZR+TJUa88MORhsEwCA==
-length: 5852
+edSignature: h7vw736ZobcfExJ2QPGwgcsFH9+Hs/jIF2rLl/llwqUsOoJgtLCGBqkEnVpj9z2z+X1x+n6FpY4SC7Va9IM8AA==
+length: 6538
 -->
