@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.8.2</title>
+            <pubDate>Wed, 07 Oct 2026 19:01:27 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Добавлены пояснения к прогнозу пользы.
+
+- Итог в основной ветке, прогноз после вливания и ожидаемая прибавка теперь находятся над категориями.
+- Столбец прогноза называется «После вливания». Подпись уточняет, что в него входят все локальные ветки.
+- Если оценка категории снизилась, значок ⓘ раскрывает причину на данных расчёта и показывает общий результат.
+- При выборе проекта явно показан его вклад в общую пользу. Пояснение учитывает работу в других проектах.
+- В разделе «Как считается» сначала даны три простых правила. Формула и ограничения раскрываются отдельно.
+
+Настройки проектов и история сохраняются. Поддерживаются Mac с Apple Silicon, macOS 14 и новее.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.2/Commit-Hours-0.8.2-arm64.zip" length="2790655" type="application/octet-stream" sparkle:edSignature="S6gffqy/srez3Ugat7BhzN6MgJJdS4k2KABfc16XOL4dciro7BbrIbCgYHhrKkLdiz2iHt6rtRf+9YnDsNkbAQ=="/>
+        </item>
+        <item>
             <title>0.8.1</title>
             <pubDate>Wed, 07 Oct 2026 16:57:00 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -50,28 +71,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.0/Commit-Hours-0.8.0-arm64.zip" length="2716242" type="application/octet-stream" sparkle:edSignature="60xbgHreOvQ5cFotQE8FZztKmN+7kTu7ZzaE1NAWZRNzSwQi7sdmQ/9j0wsNk3CqikTpP+Prvg2BAQa14C3vDA=="/>
         </item>
-        <item>
-            <title>0.7.3</title>
-            <pubDate>Mon, 21 Sep 2026 15:23:27 +0200</pubDate>
-            <link>https://mezhnin.github.io/commit-hours-releases/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Исправлен учёт Git Notes.
-
-- Служебные записи Notes больше не увеличивают число коммитов, часовые интервалы и прогноз пользы — в том числе при наличии ссылок-копий и импортированных Notes Barista.
-- Старый кэш автоматически пересчитывается после обновления.
-- Обычные рабочие коммиты, ветки и detached worktree продолжают учитываться. Сами заметки в Git сохраняются.
-
-Настройки и история сохраняются. Поддерживаются Mac с Apple Silicon.
-]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.3/Commit-Hours-0.7.3-arm64.zip" length="2677994" type="application/octet-stream" sparkle:edSignature="dcha50LUFA4Shj5g52QVJoY7oQ67dXmuBhl7Jg7AsMHvptSxJe1e1MslxFaMm7DJ9QomkaXV3js1R8jR/uZRDQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: kFS/hR3jX+gg4M2wBkb6M9TIFtRZ8dVtF4EzvWqBJehsPmwjnpxFMbc/bIs5AQrsMh3xTeFyysejEeUth0yMBw==
-length: 7374
+edSignature: bh4a4NPx4vFhRw+w2mU07CEVMZPV9/eEpN11TyV97Fv+ZBavsPO9hLyOnezM4rnkSXBp6Ngh9eIW23suo9VyAQ==
+length: 7831
 -->
