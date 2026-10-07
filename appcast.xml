@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.8.1</title>
+            <pubDate>Wed, 07 Oct 2026 16:57:00 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Оценки пользы теперь видны рядом, а время напоминания можно настроить.
+
+- Во вкладке «Польза» основная ветка и прогноз с учётом всех локальных веток показаны в одной таблице.
+- Нажатие на категорию раскрывает число строк и коммитов в каждом столбце. Итоги собраны в одной строке.
+- Если данных не хватает только для одной оценки, её столбец показывает прочерк и причину. Вторая оценка остаётся видна.
+- Напоминание о часе без коммитов по умолчанию приходит через 10 минут после начала часа.
+- В настройках уведомлений можно выбрать задержку от 0 до 59 минут. Значение 0 означает начало часа.
+- Если в текущем часу уже есть коммит, уведомления не будет. Повторные проверки не создают новых напоминаний за тот же час.
+
+Настройки проектов и история сохраняются. Поддерживаются Mac с Apple Silicon, macOS 14 и новее.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.1/Commit-Hours-0.8.1-arm64.zip" length="2755936" type="application/octet-stream" sparkle:edSignature="mxzu4KRXzWR7AsQaT9BtlghQMxeT6RKYdCsKojP+dJs0Pcq24c8nfu5sey2ZIfQHJpbULqEHpC56bsLZ6s24Cw=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Mon, 05 Oct 2026 22:56:29 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -47,27 +69,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.3/Commit-Hours-0.7.3-arm64.zip" length="2677994" type="application/octet-stream" sparkle:edSignature="dcha50LUFA4Shj5g52QVJoY7oQ67dXmuBhl7Jg7AsMHvptSxJe1e1MslxFaMm7DJ9QomkaXV3js1R8jR/uZRDQ=="/>
         </item>
-        <item>
-            <title>0.7.2</title>
-            <pubDate>Fri, 18 Sep 2026 17:49:56 +0200</pubDate>
-            <link>https://mezhnin.github.io/commit-hours-releases/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Выбор проекта во вкладке «Польза» перенесён в правую часть шапки, на то же место, что и в «Интервалах».
-
-- Убрана отдельная строка выбора проекта внутри карточки пользы.
-- Оба переключателя выровнены по правому краю. Высота шапки и окна остаётся постоянной при переключении вкладок.
-
-Настройки, история и правила расчёта сохраняются.
-]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.7.2/Commit-Hours-0.7.2-arm64.zip" length="2689368" type="application/octet-stream" sparkle:edSignature="v6OG0xdSGdoTdwoAf0jZfYRQHdAGmYb8A8yPO/um1V2qZ+MpVM2YOLHwpQ+9wNqIPSZ9m3OEOV3JGaZvAT5qCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: h7vw736ZobcfExJ2QPGwgcsFH9+Hs/jIF2rLl/llwqUsOoJgtLCGBqkEnVpj9z2z+X1x+n6FpY4SC7Va9IM8AA==
-length: 6538
+edSignature: kFS/hR3jX+gg4M2wBkb6M9TIFtRZ8dVtF4EzvWqBJehsPmwjnpxFMbc/bIs5AQrsMh3xTeFyysejEeUth0yMBw==
+length: 7374
 -->
