@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.8.3</title>
+            <pubDate>Mon, 12 Oct 2026 11:38:50 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Добавлен тихий звук при заполнении текущего часа.
+
+- Системный Pop звучит, когда текущий час впервые заполнен коммитом и иконка становится зелёной.
+- Звук по умолчанию выключен. Включить его можно в настройках уведомлений: «Проигрывать звук, когда час заполнен».
+- Повторные коммиты и обновления данных не повторяют звук. Если при запуске час уже заполнен, звук не проигрывается.
+- Звук работает независимо от напоминаний о часе без коммитов.
+
+Настройки проектов и история сохраняются. Поддерживаются Mac с Apple Silicon, macOS 14 и новее.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.3/Commit-Hours-0.8.3-arm64.zip" length="2796564" type="application/octet-stream" sparkle:edSignature="tDxAy3zZFihPLVfNcGlTI0oZbTVkm7O+IIV4keb6roiTg0rJMa0b+jHb+V2pe1/btCdKsm8Wsu/aN3K0/KNyAg=="/>
+        </item>
+        <item>
             <title>0.8.2</title>
             <pubDate>Wed, 07 Oct 2026 19:01:27 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -48,32 +68,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.1/Commit-Hours-0.8.1-arm64.zip" length="2755936" type="application/octet-stream" sparkle:edSignature="mxzu4KRXzWR7AsQaT9BtlghQMxeT6RKYdCsKojP+dJs0Pcq24c8nfu5sey2ZIfQHJpbULqEHpC56bsLZ6s24Cw=="/>
         </item>
-        <item>
-            <title>0.8.0</title>
-            <pubDate>Mon, 05 Oct 2026 22:56:29 +0200</pubDate>
-            <link>https://mezhnin.github.io/commit-hours-releases/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Обновлён расчёт пользы под текущую модель t39.
-
-- Оценка зависит от добавленных и удалённых строк, с ограничением 1000 строк на коммит и постепенно уменьшающейся прибавкой. Старый потолок в шесть коммитов убран.
-- Польза рассчитывается по общей дневной шкале всех включённых репозиториев. Фильтр проекта показывает его вклад в общий результат.
-- В категориях видны учтённые строки, число коммитов и баллы. Внизу — основная ветка и пересчитанный прогноз по всем локальным веткам.
-- Статистика изменений кэшируется по коммитам и дополняется автоматически. Если данных не хватает, приложение показывает причину вместо нулевой оценки.
-- Сохранены две вкладки и постоянная высота шапки. Расчёт часовых интервалов не изменён.
-
-Оценка остаётся предварительной: классификация отдельных коммитов и некоторые серверные исключения могут отличаться от t39.
-
-Настройки сохраняются. При первом запуске история автоматически дополняется статистикой строк. Поддерживаются Mac с Apple Silicon, macOS 14 и новее.
-]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.0/Commit-Hours-0.8.0-arm64.zip" length="2716242" type="application/octet-stream" sparkle:edSignature="60xbgHreOvQ5cFotQE8FZztKmN+7kTu7ZzaE1NAWZRNzSwQi7sdmQ/9j0wsNk3CqikTpP+Prvg2BAQa14C3vDA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: bh4a4NPx4vFhRw+w2mU07CEVMZPV9/eEpN11TyV97Fv+ZBavsPO9hLyOnezM4rnkSXBp6Ngh9eIW23suo9VyAQ==
-length: 7831
+edSignature: ea8Mk6J6bZ7PmofQmivQc13B7CGVov0uty6S1truwoW0LYGxc8j4XE7O8vO5r8hrjjbr3oUubLH2tQeA8wLACQ==
+length: 6991
 -->
