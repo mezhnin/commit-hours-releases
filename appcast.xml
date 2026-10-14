@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Commit Hours</title>
         <item>
+            <title>0.8.4</title>
+            <pubDate>Wed, 14 Oct 2026 11:03:51 +0200</pubDate>
+            <link>https://mezhnin.github.io/commit-hours-releases/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Исправлено определение категорий коммитов при расчёте пользы.
+
+- Маркеры `style:` и `правка:` теперь выбирают укрепление продукта или внутреннего инструмента по типу проекта.
+- Эти маркеры распознаются и после названия модуля или задачи, включая запись в скобках.
+
+Сохранённая история пересчитывается автоматически. Настройки проектов сохраняются. Поддерживаются Mac с Apple Silicon, macOS 14 и новее.
+]]></description>
+            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.4/Commit-Hours-0.8.4-arm64.zip" length="2796631" type="application/octet-stream" sparkle:edSignature="pFFAtcjv1GPmSSnD8nW8PLyVy1/fT21Mr6F7Zw2MKSiuDWgz6QyPjajfQrjmq9eqXUCO4TAc4B11ZvbfnzdNBg=="/>
+        </item>
+        <item>
             <title>0.8.3</title>
             <pubDate>Mon, 12 Oct 2026 11:38:50 +0200</pubDate>
             <link>https://mezhnin.github.io/commit-hours-releases/</link>
@@ -46,31 +64,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.2/Commit-Hours-0.8.2-arm64.zip" length="2790655" type="application/octet-stream" sparkle:edSignature="S6gffqy/srez3Ugat7BhzN6MgJJdS4k2KABfc16XOL4dciro7BbrIbCgYHhrKkLdiz2iHt6rtRf+9YnDsNkbAQ=="/>
         </item>
-        <item>
-            <title>0.8.1</title>
-            <pubDate>Wed, 07 Oct 2026 16:57:00 +0200</pubDate>
-            <link>https://mezhnin.github.io/commit-hours-releases/</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/mezhnin/commit-hours-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Оценки пользы теперь видны рядом, а время напоминания можно настроить.
-
-- Во вкладке «Польза» основная ветка и прогноз с учётом всех локальных веток показаны в одной таблице.
-- Нажатие на категорию раскрывает число строк и коммитов в каждом столбце. Итоги собраны в одной строке.
-- Если данных не хватает только для одной оценки, её столбец показывает прочерк и причину. Вторая оценка остаётся видна.
-- Напоминание о часе без коммитов по умолчанию приходит через 10 минут после начала часа.
-- В настройках уведомлений можно выбрать задержку от 0 до 59 минут. Значение 0 означает начало часа.
-- Если в текущем часу уже есть коммит, уведомления не будет. Повторные проверки не создают новых напоминаний за тот же час.
-
-Настройки проектов и история сохраняются. Поддерживаются Mac с Apple Silicon, macOS 14 и новее.
-]]></description>
-            <enclosure url="https://github.com/mezhnin/commit-hours-releases/releases/download/v0.8.1/Commit-Hours-0.8.1-arm64.zip" length="2755936" type="application/octet-stream" sparkle:edSignature="mxzu4KRXzWR7AsQaT9BtlghQMxeT6RKYdCsKojP+dJs0Pcq24c8nfu5sey2ZIfQHJpbULqEHpC56bsLZ6s24Cw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ea8Mk6J6bZ7PmofQmivQc13B7CGVov0uty6S1truwoW0LYGxc8j4XE7O8vO5r8hrjjbr3oUubLH2tQeA8wLACQ==
-length: 6991
+edSignature: MhYu7ANtbDoAJxIUzd1T1uN3zGgzSxeDxdrLwxcS9gK+PftB91Bf/Gjr/jHKRyHkXppqanBCep478OSt5zaeDA==
+length: 6255
 -->
